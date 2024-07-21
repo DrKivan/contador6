@@ -1,6 +1,6 @@
 // Establece la fecha del cumpleaños para este año
 const year = new Date().getFullYear();
-const birthdayThisYear = new Date(year, 6, 21, 15, 30, 45).getTime(); // 20 de julio a las 15:30:45
+const birthdayThisYear = new Date(year, 6, 21, 11, 40, 45).getTime(); // 20 de julio a las 15:30:45
 
 // countdown
 let timer = setInterval(function() {
